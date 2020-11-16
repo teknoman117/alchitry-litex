@@ -1,11 +1,12 @@
-Alchitry Au LiteX
+Alchitry LiteX
 =================
 
-counter
--------
-displays binary counter on user leds
+LiteX examples for Alchitry boards 
 
-ddr3
-----
-creates a LiteX mini-soc so that the ddr3 and user leds are accessible over the usb (uart) interface via wishbone-tool
+au
+---
+LiteX examples for the Alchitry Au
 
+mojov3
+------
+LiteX examples for the Alchitry Mojo V3
