@@ -47,6 +47,10 @@ class Platform(XilinxPlatform):
         ]
         self.toolchain.additional_commands = ["write_bitstream -force -bin_file {build_name}"]
 
+    def do_finalize(self, fragment):
+        XilinxPlatform.do_finalize(self, fragment)
+        self.add_period_constraint(self.lookup_request("clk100", loose=True), 1e9/100e6)
+
 # Design -------------------------------------------------------------------------------------------
 
 # Create our platform (fpga interface)
