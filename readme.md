@@ -1,7 +1,5 @@
-Alchitry LiteX
-=================
-
-LiteX examples for Alchitry boards 
+LiteX Examples for Alchitry FPGA boards
+=======================================
 
 au
 ---
