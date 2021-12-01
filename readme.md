@@ -1,3 +1,8 @@
+Archived - supported in upstream
+--------------------------------
+
+https://github.com/litex-hub/litex-boards/
+
 LiteX Examples for Alchitry FPGA boards
 =======================================
 
